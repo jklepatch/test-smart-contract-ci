@@ -21,7 +21,6 @@ jobs:
       run: |
         npm install -g truffle
         npm install -g ganache-cli
-        ganache-cli
-        npm run test
+        ganache-cli && npm run test
       env:
         CI: true
